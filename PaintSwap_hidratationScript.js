@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {catData} from './catDatabase.js' //Custom dataset to hidrate request from
 // import fetch from 'node-fetch' ignoreme if not using node
 
@@ -74,4 +73,4 @@ async function main() {
 }
 
 main();
->>>>>>> 35ad72697d54f2385c53d2e56b994cad423b96e8
+
