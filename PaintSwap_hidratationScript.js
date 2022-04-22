@@ -11,7 +11,7 @@ async function catsData()  {
 
 function hidratePaintSwapData(paintCats){
     
-    for  (let i = 0; i < paintCats.length; i++) {
+    for  (let i = 0; i < paintCats.length; i++) { //feel free to use .forEach() helper [I feel like a loop is more declarative]
             paintCats[i].score = catData[paintCats[i].tokenId].score
             paintCats[i].MPratio = catData[paintCats[i].tokenId].score/(paintCats[i].price/1e18)
     }
